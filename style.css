@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Kalam:wght@300;400;700&family=PT+Serif:ital@0;1&family=Poppins:ital,wght@1,200&family=Varela+Round&display=swap');
+:root{
+    background-color: rgb(187, 208, 216);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kalam", cursive;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(130, 130, 187);
+    font-weight: 700;
+    font-size: 5rem;
+    font-style: normal;
+}
+.btn {
+    background-color: rgb(167, 167, 202);
+    text-align: center;
+    color: rgb(90, 90, 119);
+    padding: 0.8rem 1.6rem; 
+    text-decoration: black;
+    display: inline-block;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: rgb(127, 127, 173);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 150ms;
+    transform: scale(1.03);
+    cursor: pointer;
+}
