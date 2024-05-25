@@ -8,18 +8,18 @@ h1{
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 3px;
     background: rgb(167, 167, 202);
     font-size: 3rem;
-    min-width: 80rem;
+    min-width: 75rem;
 }
 .choice-container:hover{
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    transition: transform 150ms;
-    transform: scale(1.03);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    transition: transform 175ms;
+    transform: scale(1.04);
 }
-.choice-prefix{
+.choice-group{
     padding: 2rem 2.5rem;
     color: white;
     background: #333;
@@ -40,7 +40,7 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-.display-prefix{
+.display-group{
     text-align: center;
     font-size: 2rem;
 }
@@ -55,13 +55,8 @@ h1{
     border-radius: 50px;
     overflow: hidden;
 }
-#progressBarFull{
+#completeProgressBar{
     height: 100%;
     background: rgb(63, 62, 72);
     width: 0;
-}
-@media screen and (max-width:768px){
-    .choice-container{
-        min-width: 40rem;
-    }
 }

@@ -1,15 +1,13 @@
-.flex-column {
+.endFinal {
     display: flex;
-    flex-direction: column;
-}
-
-.flex-center {
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
-.btn{
+
+.btn {
     margin: 1rem;
 }
-#finalScore{
+#finalScore {
     margin-left: 70px;
 }
